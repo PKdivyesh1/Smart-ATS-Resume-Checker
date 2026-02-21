@@ -69,3 +69,5 @@ GOOGLE_API_KEY=your_api_key_here
 
 ### 5️⃣ Run the Application
 streamlit run app.py
+
+![Smart-ATS-Resume-Checker](webview.png)
