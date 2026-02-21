@@ -45,3 +45,27 @@ Make sure the following are installed:
 Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the Repository
+```bash
+https://github.com/PKdivyesh1/Smart-ATS-Resume-Checker.git
+```
+###2️⃣ Create Virtual Environment (Recommended)
+```
+python -m venv venv
+```
+Activate it:
+
+Windows: ``` venv\Scripts\activate ```
+
+Mac/Linux: ```   source venv/bin/activate ```
+
+### 3️⃣ Install Dependencies
+``` pip install -r requirements.txt ```
+
+### 4️⃣ Set Up Environment Variables
+
+Create a file named .env in the root directory and add:
+
+GOOGLE_API_KEY=your_api_key_here
+
+### 5️⃣ Run the Application
+streamlit run app.py
